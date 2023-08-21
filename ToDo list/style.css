@@ -1,0 +1,38 @@
+body{
+    background-image: url("magicpattern-mesh-gradient-1682179791326.png");
+    padding-left:40px;
+    padding-right:40px;
+    
+}
+.col-md-5{
+    margin-top:150px !important;
+    background-color: white;
+    border-radius: 5px;
+}
+h1{
+    text-align:center !important;
+    font-weight:bolder !important;
+    margin:20px !important;
+}
+button{
+    margin-left: 10px !important;
+
+}
+input{
+    display:inline !important;
+    border:3px solid black !important;
+    border-radius:5px;
+    width:85% !important;
+}
+li{
+    list-style-type: none;
+    font-size:20px;
+    text-align:center;
+    width:70%;
+    display:inline;
+    margin: 10px;
+}
+i{
+    margin: 10px;
+    color:red;
+}

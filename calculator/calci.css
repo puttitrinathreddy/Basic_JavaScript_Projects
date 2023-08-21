@@ -1,0 +1,36 @@
+html,body{
+    height:100%
+}
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.col-md-6{
+    margin-top: 150px !important;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border:5px solid black !important;
+}
+input[type=button] {
+    width:100%;
+    background-color: black;
+    color:whitesmoke;
+    font-weight:bold;
+    
+}
+input[type=text] {
+    width:100%;
+}
+h1{
+    font-weight:bolder !important;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: #f9f8f9 !important;
+  color: rgb(16, 16, 16) !important;
+  padding-right: 12px;
+  padding: 12px;
+  font-size: 1.1em;
+  transition-property: transform !important;
+    transition-duration:0.3s!important;
+    transition-timing-function:ease!important;
+    transition-delay:0s!important;
+}

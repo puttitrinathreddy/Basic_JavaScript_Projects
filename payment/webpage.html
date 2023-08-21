@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="/Payment" method="post">
+        <h1  class="mainH1" style="text-align: center;"></textarea><strong>Welcome to the Payment Section</strong></h1>
+        <h2>Contact Info</h2>
+      <fieldset>
+        <p>
+           <label>
+            <input type="radio" name="title" value="mr">
+            Mr
+           </label>
+           <label>
+            <input type="radio" name="title" value="mrs">
+            Mrs
+           </label>
+           <label>
+            <input type="radio" name="title" value="miss">
+            Miss
+           </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <p>First Name: <input type="text" name="first_name" required></p>
+        <p>Middle Name: <input type="text" name="middle_name"></p>
+        <p>Last Name: <input type="text" name="last_name" required></p>
+      </fieldset>
+      <fieldset>
+        <p> 
+           Gender:
+           <input type="radio" name="gender" value="Male" required>Male:
+           <input type="radio" name="gender" value="Female" required>Female:
+           <input type="radio" name="gender" value="Others" required>Others:
+        </p>
+      </fieldset>
+      <p>Address: <textarea name="address" id="address" cols="35" rows="4"></textarea></p>
+      <p>Email: <input type="email" name="email" id="email"></p>
+      <p>Area Pincode: <input type="pincode" name="pincode" id="number"></p>
+      <hr>
+      <h2>Payment Info</h2>
+      <p><strong>Payment Method:</strong>
+        <select name="payment_method" value="payment_method" required>
+          <option value="">---Select Payment Method---</option>
+          <option value="credit_card">Credit Card</option>
+          <option value="debit_card">Debit Card</option>
+          <option value="net_banking">Net Banking</option>
+          <option value="upi">UPI</option>
+        </select>
+      </p>
+      <p>
+       Select Card type:
+        <select name="card_type" value="card_type" required>
+          <option value="">--Select a Card Type--</option>
+          <option value="visa">Visa</option>
+          <option value="mastercard">MasterCard</option>
+          <option value="rupay">Rupay</option>
+        </select>
+      </p>
+      <p>
+        Card Number <input type="number" name="number" id="number"required>
+      </p>
+      <p>Expiration Date: <input type="date" name="date" id="date"required></p>
+      <p>Enter CVV: <input type="password" name="password" id="password"required></p>
+      <input type="submit" value="Click to Pay">
+    </form>
+  </div>
+</body>
+</html>

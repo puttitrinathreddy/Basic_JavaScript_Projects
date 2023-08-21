@@ -1,0 +1,155 @@
+hr{
+    background-color: aliceblue;
+    width:100%;
+}
+q{
+    font-size: 47px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family:sans-serif;
+    color:rgb(181, 59, 234);
+    text-align:center;
+    font-size: 60px;
+}
+h2{
+    color:rgb(253, 251, 251);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:30px;
+}
+.back{
+    position:absolute;
+    z-index:-1;
+    opacity:0.1;
+    bottom:-480px;
+    left:20px;
+}
+.ground{
+    position:absolute;
+    z-index:-1;
+    opacity:0.1;
+    bottom:-1150px;
+    right:20px;
+
+}
+.icon3{
+    position:absolute;
+    z-index:-1;
+    opacity:0.1;
+    top:400px;
+    width:500px;
+    height:500px;
+    right:20px;
+   
+}
+.icon4{
+    position:absolute;
+    z-index:-1;
+    opacity:0.1;
+    bottom:-1150px;
+    left:20px;
+    
+}
+body{
+    background-image: url("magicpattern-grid-pattern-1682108499076.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:10px;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    overflow-x:hidden;
+}
+*{
+    box-sizing: border-box;
+    padding:5px;
+    color:rgb(241, 238, 238);
+
+    
+}
+.mail{
+    align-items: center;
+    display:flex;
+    gap:10px;/* display flex use kiya hain and gap ek naya property hain*/
+    justify-content: center;
+    text-align: center;
+}
+#email{
+    color:black;
+    border: solid 2px black;
+    border-radius:5px;
+}
+input[type="button"]{
+    background-color: rgb(32, 53, 134);
+    border: solid 2px rgb(11, 11, 11);
+    color:rgb(253, 253, 253);
+    border-radius:5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(32, 53, 134);
+    padding:2px;
+    font-size: large;
+    font-weight: bolder;
+}
+section .main{
+    text-align: center;
+}
+.content{
+    display:flex;
+}
+.main-image:hover img{
+    transform: scale(1.2);
+}
+.main-image,footer,figure,figcaption{
+    text-align: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(227, 226, 226);
+    font-weight: bolder;
+    transition-property: transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+#btn:hover{
+    background-color:rgb(88, 99, 145);
+    color: rgb(0, 3, 14);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.fig1,.fig2,.fig3,.fig4{
+    border:2px solid transparent;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline-block;
+    width:360px;
+    transition-property: transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+.items{
+    text-align: center;
+
+}
+.fig1:hover img{
+    transform: scale(1.5);
+}
+.fig2:hover img{
+    transform: scale(1.5);
+}
+.fig3:hover img{
+    transform: scale(1.5);
+}
+.fig4:hover img{
+    transform: scale(1.5);
+}
+#hover{
+    opacity: 0;
+}
+
