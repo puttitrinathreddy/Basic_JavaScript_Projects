@@ -34,6 +34,9 @@ Welcome to the "Basic JavaScript Projects" collection! This repository contains 
 - Description: Displays a set of cards that expand upon clicking, providing additional information or visuals.
 - Concepts: Event handling, CSS animations, DOM manipulation.
 
+### AND **etc**
+
+
 ## Getting Started
 
 To explore and run these projects on your local machine, follow these steps:
